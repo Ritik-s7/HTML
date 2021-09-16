@@ -5,18 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact us</title>
-    <h1>Form</h1>
+    <h1>Contack Us</h1>
   </head>
   <body>
     <form action="About.html">
-      <input type="text" placeholder="First name" />
+      <input type="text" placeholder="First name" name="name" />
       <input type="text" placeholder="Last name" />
       <br />
-      <input type="email" placeholder="E-mail ID" />
       <br />
-      <input type="Password" placeholder="password" />
+      <input type="email" placeholder="E-mail ID" name="username" required />
       <br />
-      <input type="submit" value="Submit and Return" />
+      <br />
+      <input
+        type="Password"
+        placeholder="password"
+        minlength="5"
+        maxlength="20"
+        required
+      />
+
+      <input type="color" value="Favourite colour" name="color" />
+      <br />
+      <br />
+      <label for="g">Gender</label>
+      <select name="gender" id="g">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      <p>
+        <input type="radio" name="branch" id="pe" value="pe" />
+        <label for="pe">Petroleum Engineering</label>
+        <br />
+        <input type="radio" name="branch" id="ch" value="ce" />
+        <label for="ch">Chemical Engineering</label>
+        <br />
+        <input type="radio" name="branch" id="oth" value="other" />
+        <label for="oth">Other</label>
+      </p>
+
+      <p>
+        <label for="request"><b>Message for us!!</b></label>
+        <br />
+        <textarea
+          name="message"
+          id="request"
+          cols="50"
+          rows="7"
+          placeholder="Write your message here..."
+        ></textarea>
+      </p>
+
+      <h3>Terms and Conditions</h3>
+      <input type="checkbox" name="t&c" id="terms" checked required />
+      <label for="terms"> I accept all terms and conditions*.</label><br />
+      <br />
+      <input type="submit" />
+      <button type="reset">Reset</button>
     </form>
   </body>
 </html>
