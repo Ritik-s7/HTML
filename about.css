@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(2, 2, 48);
+}
+
+h2 {
+  color: palegoldenrod;
+}
+
+.social button {
+  background: none;
+  color: orange;
+  border-color: orange;
+  border-radius: 10%;
+  margin: 1em 1em 1em 1em;
+  transition: 0.3s;
+}
+
+.social button:hover {
+  color: white;
+  border-color: rgb(147, 207, 28);
+  box-shadow: 0px 5px 5px green;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+form button {
+  background: none;
+  color: rgb(255, 0, 0);
+  border-color: indianred;
+  border-radius: 10%;
+  margin: 1em 1em 1em 1em;
+  transition: 0.3s;
+}
+
+form button:hover {
+  color: white;
+  border-color: rgb(40, 28, 207);
+  box-shadow: 0px 5px 5px rgb(45, 0, 128);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+form input {
+  border-color: grey;
+  border: 2px solid black;
+}
+
+a {
+  color: blanchedalmond;
+}
+
+img {
+  height: 350px;
+  width: 200px;
+}
