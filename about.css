@@ -25,7 +25,7 @@ h2 {
 
 form button {
   background: none;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 87, 87);
   border-color: indianred;
   border-radius: 10%;
   margin: 1em 1em 1em 1em;
@@ -45,11 +45,16 @@ form input {
   border: 2px solid black;
 }
 
-a {
-  color: blanchedalmond;
+.sites a {
+  color: midnightblue;
+  background: white;
+  border: 3px solid blue;
+  margin-top: 20px;
+  padding: 12px 12px;
 }
 
 img {
   height: 350px;
   width: 200px;
+  margin-bottom: 25px;
 }
