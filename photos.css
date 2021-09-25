@@ -1,0 +1,22 @@
+img {
+  width: 30%;
+  height: 300px;
+  margin: 1.4%;
+  transition: 0.5s;
+}
+
+.navbar {
+  font-family: "Arvo", serif;
+  font-size: 1.5em;
+  margin-left: 1.4%;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+
+  padding: 20px 0px;
+}
+
+img:hover {
+  transform: translateY(-5px) scale(0.95);
+  cursor: pointer;
+}
